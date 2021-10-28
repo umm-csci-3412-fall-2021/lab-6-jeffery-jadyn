@@ -79,7 +79,7 @@ public class EchoClient {
 
 		OutputStream output;
 
-		//Contructs class
+		//Constructs class
 		public WriteToServer(Socket socket) throws IOException {
 			this.output = socket.getOutputStream();
 			this.socket = socket;
